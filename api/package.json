@@ -6,7 +6,7 @@
   "scripts": {
     "start": "NODE_ENV=develop nodemon --exec babel-node index.js",
     "dev": "npm run start",
-		"prod": "cross-env NODE_ENV=product babel-node index.js"
+    "prod": "cross-env NODE_ENV=product babel-node index.js"
   },
   "author": "Bruce Hsu (bruce0205@gmail.com)",
   "license": "MIT",
